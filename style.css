@@ -1,0 +1,59 @@
+body {
+
+    font-family:'myriad-bold';
+    background: black;
+    font-family: 'Segoe UI';
+    color: white;
+
+    
+}
+
+form {
+    display: grid;
+    margin-top: 10%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%
+
+}
+
+label {
+    display: block;
+    font-size: 1.5em; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
+    margin-top: 10px;
+    text-align: center;
+}
+
+input {
+    padding: 10px; /* Adicionei um preenchimento ao campo de entrada */
+    margin-top: 5px; /* Ajustei a margem superior para melhor espaçamento entre os elementos */
+    width: 100%; /* Ocupa a largura total do contêiner */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+.btn-primary {
+    font-size: 1.2em; /* Tamanho da fonte do botão */
+    background-color: #790101; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto no botão */
+    padding: 15px 20px; /* Ajustei o preenchimento do botão para torná-lo maior */
+    border: none; /* Removi a borda padrão do botão */
+    cursor: pointer; /* Adicionei um cursor ao passar o mouse sobre o botão */
+    outline: none; /* Removi a borda de foco ao clicar no botão */
+    transition: background-color 0.3s; /* Adicionei uma transição suave na mudança de cor de fundo */
+    width: 20%; 
+    margin-top: 15px; 
+    border-radius: 10px/* Adicionei bordas arredondadas ao botão */
+}
+
+.btn-primary:hover {
+    background-color: darkred; /* Cor de fundo vermelha mais escura ao passar o mouse sobre o botão */    
+}
+
+.logo {
+    margin-left: 42%;
+    margin-right: 20%;
+    width:15%;
+    margin-bottom: 0,5px;
+
+}
